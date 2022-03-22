@@ -1,0 +1,38 @@
+{
+  "files": {
+    "app.js": "/bored/static/js/app.3e0c217b.chunk.js",
+    "app.js.map": "/bored/static/js/app.3e0c217b.chunk.js.map",
+    "runtime~app.js": "/bored/static/js/runtime~app.c5230a16.js",
+    "runtime~app.js.map": "/bored/static/js/runtime~app.c5230a16.js.map",
+    "static/js/2.c3fed870.chunk.js": "/bored/static/js/2.c3fed870.chunk.js",
+    "static/js/2.c3fed870.chunk.js.map": "/bored/static/js/2.c3fed870.chunk.js.map",
+    "fonts/AntDesign.ttf": "/bored/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/bored/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/bored/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/bored/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/bored/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/bored/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/bored/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/bored/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/bored/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/bored/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/bored/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/bored/./fonts/SimpleLineIcons.ttf",
+    "favicon-16.png": "/bored/favicon-16.png",
+    "favicon-32.png": "/bored/favicon-32.png",
+    "favicon.ico": "/bored/favicon.ico",
+    "index.html": "/bored/index.html",
+    "manifest.json": "/bored/manifest.json",
+    "serve.json": "/bored/serve.json",
+    "static/js/2.c3fed870.chunk.js.LICENSE.txt": "/bored/static/js/2.c3fed870.chunk.js.LICENSE.txt",
+    "static/media/bell.png": "/bored/static/media/bell.cf04af27.png",
+    "static/media/heart.png": "/bored/static/media/heart.23b5c2c0.png",
+    "static/media/rocket.png": "/bored/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/bored/static/media/star.69c71386.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.c5230a16.js",
+    "static/js/2.c3fed870.chunk.js",
+    "static/js/app.3e0c217b.chunk.js"
+  ]
+}
