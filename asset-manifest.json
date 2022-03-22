@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/bored/static/js/app.3e0c217b.chunk.js",
-    "app.js.map": "/bored/static/js/app.3e0c217b.chunk.js.map",
+    "app.js": "/bored/static/js/app.aea4a160.chunk.js",
+    "app.js.map": "/bored/static/js/app.aea4a160.chunk.js.map",
     "runtime~app.js": "/bored/static/js/runtime~app.c5230a16.js",
     "runtime~app.js.map": "/bored/static/js/runtime~app.c5230a16.js.map",
     "static/js/2.c3fed870.chunk.js": "/bored/static/js/2.c3fed870.chunk.js",
@@ -33,6 +33,6 @@
   "entrypoints": [
     "static/js/runtime~app.c5230a16.js",
     "static/js/2.c3fed870.chunk.js",
-    "static/js/app.3e0c217b.chunk.js"
+    "static/js/app.aea4a160.chunk.js"
   ]
 }
