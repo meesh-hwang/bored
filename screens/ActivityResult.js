@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { ActivityIndicator } from "react-native";
 
 import ResultFeedback from "../components/ResultFeedback";
+import BgImg from "../components/BgImg";
 
 export default function ActivityResult({route, navigation}) {
     const {accessibility} = route.params;
@@ -34,9 +35,12 @@ export default function ActivityResult({route, navigation}) {
       }, []);
 
     return(
-        <View>
+      <View>
+        <BgImg />
+        <View style={styles.container}>
             {displayActivity(error, isLoaded, dataResult, navigation)}         
         </View>
+      </View>
     );
 }
 function displayActivity(error, isLoaded, dataResult, navigation) {
@@ -53,7 +57,7 @@ function displayActivity(error, isLoaded, dataResult, navigation) {
       return (
         <View>
           <Text>Loading...</Text>
-          <ActivityIndicator size="large" color="#00ff00" />
+          <ActivityIndicator size="large" color="#d63131" />
         </View>
       );
     }
@@ -67,9 +71,9 @@ function displayActivity(error, isLoaded, dataResult, navigation) {
     else {
       return (
         <View>
-            <Text h1>{dataResult.activity}</Text>
-
-            <Text>Are you happy with this result?</Text>
+          <View style={styles.activityContainer}>
+            <Text style={styles.activity}>{dataResult.activity}</Text>
+          </View>
             <ResultFeedback />
             
         </View>
@@ -80,5 +84,25 @@ function displayActivity(error, isLoaded, dataResult, navigation) {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
+      paddingHorizontal:20,
+      display:'flex',
+      flexDirection:'column',
+      alignItems:'center',
+      justifyContent:'center'
     },
+    activity: {
+      fontSize:25,
+      fontWeight:600,
+      alignSelf:'center'
+    },
+    activityContainer: {
+      display:'flex',
+      flexDirection:'column',
+      alignItems:'center',
+      justifyContent:'center',
+      backgroundColor:'#ffd0d0',
+      padding:30,
+      marginTop:'8vh',
+      marginBottom:'5vh'
+    }
   });
