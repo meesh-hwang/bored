@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/bored/static/js/app.aea4a160.chunk.js",
-    "app.js.map": "/bored/static/js/app.aea4a160.chunk.js.map",
+    "app.js": "/bored/static/js/app.27c35520.chunk.js",
+    "app.js.map": "/bored/static/js/app.27c35520.chunk.js.map",
     "runtime~app.js": "/bored/static/js/runtime~app.c5230a16.js",
     "runtime~app.js.map": "/bored/static/js/runtime~app.c5230a16.js.map",
-    "static/js/2.c3fed870.chunk.js": "/bored/static/js/2.c3fed870.chunk.js",
-    "static/js/2.c3fed870.chunk.js.map": "/bored/static/js/2.c3fed870.chunk.js.map",
+    "static/js/2.a7bf9655.chunk.js": "/bored/static/js/2.a7bf9655.chunk.js",
+    "static/js/2.a7bf9655.chunk.js.map": "/bored/static/js/2.a7bf9655.chunk.js.map",
     "fonts/AntDesign.ttf": "/bored/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/bored/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/bored/./fonts/Feather.ttf",
@@ -24,7 +24,7 @@
     "index.html": "/bored/index.html",
     "manifest.json": "/bored/manifest.json",
     "serve.json": "/bored/serve.json",
-    "static/js/2.c3fed870.chunk.js.LICENSE.txt": "/bored/static/js/2.c3fed870.chunk.js.LICENSE.txt",
+    "static/js/2.a7bf9655.chunk.js.LICENSE.txt": "/bored/static/js/2.a7bf9655.chunk.js.LICENSE.txt",
     "static/media/bell.png": "/bored/static/media/bell.cf04af27.png",
     "static/media/heart.png": "/bored/static/media/heart.23b5c2c0.png",
     "static/media/rocket.png": "/bored/static/media/rocket.d2f3bf41.png",
@@ -32,7 +32,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.c5230a16.js",
-    "static/js/2.c3fed870.chunk.js",
-    "static/js/app.aea4a160.chunk.js"
+    "static/js/2.a7bf9655.chunk.js",
+    "static/js/app.27c35520.chunk.js"
   ]
 }
