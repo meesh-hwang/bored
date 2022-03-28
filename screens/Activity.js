@@ -1,22 +1,32 @@
 import React from "react";
 import { useState } from "react";
 import { View, Text, StyleSheet,TouchableOpacity } from "react-native";
+
+// Accessibility
 import Slider from '@react-native-community/slider';
+
+// Pay 
 import { RadioButton } from 'react-native-paper';
+
+// Background Image
 import BgImg from "../components/BgImg";
 
 
-export default function Activity({route, navigation}) {
+export default function Activity({navigation}) {
+    // Accessibility slider value
     const [value, setValue] = useState(0);
+
+    // Participants quantity
     const [participants, setParticipants] = useState(1);
+
+    // Pay: Yes or no
     const [pay, setPay] = useState(0);
 
     return(
-        <View>
-        <BgImg />
         <View style={styles.container}>
+        <BgImg />
 
-            <View style={[styles.qBox, {marginTop:'5vh'}]}>
+            <View style={[styles.qBox, {marginTop: 20}]}>
                 <Text>How many people will be participating?</Text>
                 <View style={{display:'flex', flex:1, flexDirection:'row',justifyContent:'center', alignItems:'center'}}>
                     <TouchableOpacity
@@ -68,20 +78,26 @@ export default function Activity({route, navigation}) {
             </View>
 
             <TouchableOpacity
-                onPress={()=>navigation.navigate('ActivityResult', {accessibility:{value}, people:{participants}, money:{pay}})} 
+                onPress={()=>
+                    navigation.navigate(
+                        'ActivityResult', 
+                        {accessibility:{value}, 
+                        people:{participants}, 
+                        money:{pay}})} 
                 style={styles.btn}
             >
                 <Text style={styles.btnTxt}>Continue</Text>
             </TouchableOpacity>
-        </View>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      paddingHorizontal:20
+        flex: 1,
+        display:'flex',
+        flexDirection:'column',
+        alignItems:'center',
     },
     btn: {
         flex:1,
@@ -89,9 +105,9 @@ const styles = StyleSheet.create({
         flexDirection:'column',
         alignItems:'center',
         justifyContent:'center',
-        marginTop:'5vh',
-        width:'50vw',
-        height:'10vh',
+        marginTop:20,
+        width:180,
+        maxHeight:90,
         alignSelf:'center',
         borderWidth:5,
         borderColor:'#ff5c5c',
@@ -99,8 +115,9 @@ const styles = StyleSheet.create({
         backgroundColor:'#ff5c5c',
     },
     btnTxt: {
-        fontSize: '7vw',
-        padding:10,
+        fontSize: 28,
+        paddingVertical:10,
+        paddingHorizontal:20,
         fontWeight:"700",
         color:'#fff'
     },
@@ -111,8 +128,9 @@ const styles = StyleSheet.create({
         alignItems:'center',
         justifyContent:'center',
         padding:20,
-        minWidth:'fit-content',
+        width:'90%',
+        height:160,
         borderRadius:20,
-        marginVertical:5
+        marginVertical:5,
     }
   });

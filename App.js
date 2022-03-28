@@ -1,9 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { navigationRef } from './RootNavigation';
+import * as RootNavigation from './RootNavigation'
 import { View, TouchableOpacity, Image } from 'react-native';
 
 // Screens
@@ -18,15 +17,6 @@ const Stack = createStackNavigator();
 
 const logoImg = {uri: "https://i.ibb.co/Rv18tvW/logo.png"}
 
-  function LogoTitle() {
-    return (
-      <View>
-            <TouchableOpacity onPress={() => RootNavigation.navigate('Home')}  style={{paddingTop:10, paddingBottom:10}}>
-                <Image source={logoImg} alt="Hwang's Kitchen" className="logo" style={{width:'50vw',height:100, resizeMode:'contain', paddingTop:10}} />
-            </TouchableOpacity>
-        </View>
-    );
-  }
 export default function App() {
   return (
     <SafeAreaProvider>
@@ -73,5 +63,15 @@ export default function App() {
 
       </NavigationContainer>
     </SafeAreaProvider>
+  );
+}
+
+function LogoTitle() {
+  return (
+    <View>
+          <TouchableOpacity onPress={() => RootNavigation.navigate('Home')}  style={{paddingTop:10, paddingBottom:10}}>
+              <Image source={logoImg} alt="bored app logo" className="logo" style={{width:200,height:100, resizeMode:'contain', paddingTop:10}} />
+          </TouchableOpacity>
+      </View>
   );
 }
