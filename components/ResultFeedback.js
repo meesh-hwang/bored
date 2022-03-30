@@ -39,7 +39,7 @@ export default function ResultFeedback() {
                         <Text style={styles.overBtnTxt}>No</Text>
                     </TouchableOpacity>
                     <TouchableOpacity
-                        onPress={() => {RootNavigation.navigate('Joke'); setNoVisibleAlert(false);}}
+                        onPress={() => {RootNavigation.navigate('Joke'); setYesVisibleAlert(false);}}
                         style={[styles.overBtn, {marginLeft:5}]}
                     >
                         <Text style={[styles.overBtnTxt, {paddingHorizontal:20}]}>Yes</Text>
@@ -63,7 +63,7 @@ export default function ResultFeedback() {
                         <Text style={styles.overBtnTxt}>Close</Text>
                     </TouchableOpacity>
                     <TouchableOpacity
-                        onPress={() => {RootNavigation.navigate('Joke'); setNoVisibleAlert(false);}}
+                        onPress={() => {RootNavigation.navigate('Joke'); setYesVisibleAlert(false);}}
                         style={[styles.overBtn, {marginLeft:5}]}
                     >
                         <Text style={[styles.overBtnTxt]}>Yes</Text>

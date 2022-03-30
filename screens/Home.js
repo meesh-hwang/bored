@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         marginTop:40,
         width:180,
-        maxHeight:90,
+        maxHeight:60,
         alignSelf:'center',
         borderWidth:5,
         borderColor:'#ff5c5c',
