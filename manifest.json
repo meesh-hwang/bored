@@ -1,9 +1,10 @@
 {
   "background_color": "#ffffff",
+  "description": "A simple app coded with React Native that uses API's to generate activities/jokes depending on the params passed.",
   "display": "standalone",
   "lang": "en",
-  "name": "meeshhwang-assign2",
-  "short_name": "meeshhwang-assign2",
+  "name": "Activity Generator",
+  "short_name": "Activity Generator",
   "start_url": "/?utm_source=web_app_manifest",
   "orientation": "portrait",
   "icons": [
